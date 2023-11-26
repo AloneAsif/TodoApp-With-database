@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://cssgradient.io/images/css-gradient-swatches-80de4710.svg');
+}
+
+#inputField {
+    font-size: 20px; /* Normal font size */
+    height: 30px;
+    width: 300px;
+    color: black;
+    padding: 10px;
+    box-shadow: 3px 3px 2px black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inputField:hover {
+    background-color: rgba(255, 0, 0, 0.667);
+    color: white;
+}
+
+button {
+    font-size: 16px; /* Normal font size */
+    height: 30px;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blanchedalmond;
+}
+
+
+li {
+    font-size: 24px; /* Normal font size */
+    text-align: center;
+    list-style-type: none;
+}
+
+h1 {
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 32px; /* Normal font size */
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center-input {
+    text-align: center;
+}
+
+.center-input input {
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .center-input input {
+        max-width: 100%;
+    }
+}
